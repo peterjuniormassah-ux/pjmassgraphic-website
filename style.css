@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background:#111;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    background:black;
+    padding:20px;
+    text-align:center;
+
+}
+
+.logo{
+    width: 100px;
+    height:auto;
+    display:block;
+    margin:0 auto 10px;
+}
+
+header h1{
+    color:gold;
+    font-size:35px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.hero{
+    background:linear-gradient(to right,#000,#222);
+    padding:100px 20px;
+}
+
+
+.hero h2{
+    font-size:45;
+    color:gold;
+}
+.hero p{
+    margin: 20px 0;
+    font: size 20px;
+
+}
+
+button{
+    padding:12px 25px;
+    background:gold;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.box{
+    background:#222;
+    padding:25px;
+    margin:15px auto;
+    max-width:400px;
+    border-radius10px;
+}
+
+form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input, textarea{
+    padding: 12px;
+    border:none;
+    border-radius:5px;
+}
+
+footer{
+    background:black;
+    padding:20px;
+    text-align:center;
+    margin-top:30px;
+}
